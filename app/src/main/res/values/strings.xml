@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SearchView</string>
+    <string name="speech_prompt">Try saying something</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="search_bar">SearchBar</string>
+    <string name="search_view">SearchView</string>
+</resources>
