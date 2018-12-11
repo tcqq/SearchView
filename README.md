@@ -28,7 +28,6 @@ Screenshots
 ![One](/screenshots/one.png)
 ![Two](/screenshots/two.png)
 ![Three](/screenshots/three.png)
-![Four](/screenshots/four.png)
 
 License
 -------
