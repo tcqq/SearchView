@@ -107,6 +107,10 @@ class SearchBar : SearchLayout {
             elevation = a.getDimensionPixelSize(R.styleable.SearchBar_search_elevation, 0).toFloat()
         }
 
+        if (a.hasValue(R.styleable.SearchBar_search_corner_radius)) {
+            setRadius(a.getDimensionPixelSize(R.styleable.SearchView_search_corner_radius, 0).toFloat())
+        }
+
         a.recycle()
 
         setOnClickListener(this)

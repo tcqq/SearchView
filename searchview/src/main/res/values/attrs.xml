@@ -63,6 +63,7 @@
         <attr name="search_shadow" format="boolean" />
         <attr name="search_shadow_color" format="color" />
         <attr name="search_elevation" format="dimension" />
+        <attr name="search_corner_radius" format="dimension" />
     </declare-styleable>
 
     <declare-styleable name="SearchBar">
@@ -71,6 +72,7 @@
         <attr name="search_theme" />
         <attr name="search_version_margins" />
         <attr name="search_elevation" />
+        <attr name="search_corner_radius" />
     </declare-styleable>
 
     <!-- reference -->

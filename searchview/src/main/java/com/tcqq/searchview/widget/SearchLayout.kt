@@ -31,7 +31,6 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.*
-import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import com.google.android.material.card.MaterialCardView
 import com.tcqq.searchview.R
@@ -418,6 +417,10 @@ abstract class SearchLayout : FrameLayout, View.OnClickListener {
                 onSubmitQuery()
             }
         }
+    }
+
+    fun setRadius(radius: Float) {
+        cardView.radius = radius
     }
 
     // Overrides
