@@ -32,7 +32,7 @@ Screenshots
 License
 -------
 
-Copyright 2018 Tcqq.
+Copyright 2018 Martin Lapis, Alan Dreamer.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
