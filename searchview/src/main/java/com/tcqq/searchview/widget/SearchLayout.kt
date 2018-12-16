@@ -17,6 +17,7 @@ import android.widget.LinearLayout
 import androidx.annotation.*
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
+import com.google.android.material.card.MaterialCardView
 import com.tcqq.searchview.R
 import com.tcqq.searchview.Search
 import com.tcqq.searchview.graphics.SearchArrowDrawable
@@ -25,7 +26,7 @@ import com.tcqq.searchview.graphics.SearchArrowDrawable
 abstract class SearchLayout : FrameLayout, View.OnClickListener {
 
     internal var queryText: CharSequence = ""
-    internal lateinit var cardView: CardView
+    internal lateinit var cardView: MaterialCardView
     internal lateinit var imageViewLogo: ImageView
     internal lateinit var imageViewMic: ImageView
     internal var imageViewClear: ImageView? = null
