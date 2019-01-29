@@ -2,13 +2,11 @@
 [![Licence](https://img.shields.io/badge/Licence-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![JitPack](https://jitpack.io/v/tcqq/SearchView.svg)](https://jitpack.io/#tcqq/SearchView)
 
-SearchView
-==========
+# SearchView
 
 Material persistent SearchView & SearchBar.
 
-Setup
-=====
+# Setup
 #### build.gradle
 ```
 repositories {
@@ -18,12 +16,11 @@ repositories {
 ```
 dependencies {
     // Using JitPack
-    implementation 'com.github.tcqq:searchview:1.1.0'
+    implementation 'com.github.tcqq:searchview:1.1.1'
 }
 ```
 
-Screenshots
------------
+# Screenshots
 
 ![One](/screenshots/one.png)
 ![Two](/screenshots/two.png)
