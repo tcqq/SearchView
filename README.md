@@ -10,7 +10,7 @@ Material persistent SearchView & SearchBar.
 #### build.gradle
 ```
 repositories {
-    jmaven { url 'https://jitpack.io' }
+    maven { url 'https://jitpack.io' }
 }
 ```
 ```
@@ -29,7 +29,7 @@ dependencies {
 License
 -------
 
-Copyright 2018 Martin Lapis, Alan Dreamer.
+Copyright 2019 Martin Lapis, Alan Dreamer.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
