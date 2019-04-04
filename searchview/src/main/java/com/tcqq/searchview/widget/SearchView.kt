@@ -127,7 +127,7 @@ class SearchView : SearchLayout,
             setLogoHamburgerToLogoArrowWithAnimation(true)
         }
         // todo SavedState, marginy kulate a barva divideru
-        onOpenCloseListener?.onOpen()
+        onOpenCloseListener?.onSuggestOpen()
 
         showSuggestions()
         showKeyboard()
@@ -141,7 +141,7 @@ class SearchView : SearchLayout,
         if (!skipLogoHamburgerToLogoArrow) {
             setLogoHamburgerToLogoArrowWithAnimation(false)
         }
-        onOpenCloseListener?.onClose()
+        onOpenCloseListener?.onSuggestClose()
 
         //setTextImageVisibility(false); todo error + shadow error pri otoceni, pak mizi animace
         hideSuggestions()

@@ -77,7 +77,7 @@ public class SearchAnimator {
                     super.onAnimationStart(animation);
                     cardView.setVisibility(View.VISIBLE);
                     if (listener != null) {
-                        listener.onOpen();
+                        listener.onSuggestOpen();
                     }
                 }
             });
@@ -116,7 +116,7 @@ public class SearchAnimator {
                     cardView.setVisibility(View.GONE);
                     searchView.setVisibility(View.GONE);
                     if (listener != null) {
-                        listener.onClose();
+                        listener.onSuggestClose();
                     }
                 }
 

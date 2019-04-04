@@ -90,14 +90,12 @@ object Search {
 
     // SearchView
     interface OnOpenCloseListener {
-        fun onOpen()
+        fun onSuggestOpen()
 
-        fun onClose()
+        fun onSuggestClose()
     }
 
     interface OnSuggestClickListener {
         fun onSuggestClick(position: Int)
     }
-
-
 }

@@ -100,7 +100,7 @@ class SearchViewActivity : AppCompatActivity(),
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
             RESULT_SPEECH_INPUT -> if (resultCode == RESULT_OK && data != null) {
-                val results = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)
+                val results = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)!!
                 val query = results[0]
                 search_view.setQuery(query, true)
                 if (search_view.searchArrowState == SearchArrowDrawable.STATE_HAMBURGER) {
