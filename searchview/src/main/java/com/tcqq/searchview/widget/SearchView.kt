@@ -413,33 +413,41 @@ class SearchView : SearchLayout,
     }
 
     private fun showSuggestions() {
-        if (adapter?.itemCount!! > 0) {
-            search_view_divider.visibility = View.VISIBLE
-            search_recyclerView.visibility = View.VISIBLE
+        if (adapter != null) {
+            if (adapter!!.itemCount > 0) {
+                search_view_divider.visibility = View.VISIBLE
+                search_recyclerView.visibility = View.VISIBLE
 
-            ViewAnimator
-                .animate(search_recyclerView)
-                .duration(300)
-                .waitForHeight()
-                .height(0F, suggestionsFullHeight)
-                .start()
-            Log.d(tag, "showSuggestions#suggestionsFullHeight: $suggestionsFullHeight")
+                ViewAnimator
+                    .animate(search_recyclerView)
+                    .duration(300)
+                    .waitForHeight()
+                    .height(0F, suggestionsFullHeight)
+                    .start()
+                Log.d(tag, "showSuggestions#suggestionsFullHeight: $suggestionsFullHeight")
+            }
+        } else {
+            Log.e(tag, "adapter cannot be null")
         }
     }
 
 
     private fun hideSuggestions() {
-        if (adapter?.itemCount!! > 0) {
-            search_view_divider.visibility = View.GONE
+        if (adapter != null) {
+            if (adapter!!.itemCount > 0) {
+                search_view_divider.visibility = View.GONE
 //            search_recyclerView.visibility = View.GONE
 
-            ViewAnimator
-                .animate(search_recyclerView)
-                .duration(250)
-                .waitForHeight()
-                .height(suggestionsHeight, 0F)
-                .start()
-            Log.d(tag, "hideSuggestions#suggestionsHeight: $suggestionsHeight")
+                ViewAnimator
+                    .animate(search_recyclerView)
+                    .duration(250)
+                    .waitForHeight()
+                    .height(suggestionsHeight, 0F)
+                    .start()
+                Log.d(tag, "hideSuggestions#suggestionsHeight: $suggestionsHeight")
+            }
+        } else {
+            Log.e(tag, "adapter cannot be null")
         }
     }
 
