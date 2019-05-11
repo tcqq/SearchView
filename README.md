@@ -16,7 +16,7 @@ repositories {
 ```
 dependencies {
     // Using JitPack
-    implementation 'com.github.tcqq:searchview:2.0.0'
+    implementation 'com.github.tcqq:searchview:2.0.1'
 }
 ```
 
