@@ -19,13 +19,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 'android-Q'
+    compileSdkVersion 29
 
 
     defaultConfig {
         applicationId "com.example.searchview"
         minSdkVersion 17
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
@@ -46,19 +46,19 @@ android {
 dependencies {
     //Test
     testImplementation 'junit:junit:4.13-beta-1'
-    androidTestImplementation 'androidx.test:runner:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     //Android X
-    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
-    implementation 'androidx.core:core-ktx:1.1.0-beta01'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha5'
+    implementation 'androidx.appcompat:appcompat:1.1.0-beta01'
+    implementation 'androidx.core:core-ktx:1.2.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta2'
 
     //Google
-    implementation 'com.google.android.material:material:1.1.0-alpha06'
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
 
     //SearchView
     implementation project(':searchview')

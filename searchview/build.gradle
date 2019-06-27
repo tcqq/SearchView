@@ -22,7 +22,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.tcqq'
 
 android {
-    compileSdkVersion 'android-Q'
+    compileSdkVersion 29
 
     sourceSets {
         main.res.srcDirs = [
@@ -33,9 +33,9 @@ android {
 
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 28
-        versionCode 7
-        versionName "2.0.1"
+        targetSdkVersion 29
+        versionCode 8
+        versionName "2.0.2"
         vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
@@ -52,16 +52,16 @@ android {
 
 dependencies {
     //AndroidX
-    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha05'
+    implementation 'androidx.appcompat:appcompat:1.1.0-beta01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha06'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.core:core-ktx:1.1.0-beta01'
+    implementation 'androidx.core:core-ktx:1.2.0-alpha02'
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     //Google
-    implementation 'com.google.android.material:material:1.1.0-alpha06'
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
 
     //ViewAnimator - https://github.com/florent37/ViewAnimator
     implementation 'com.github.florent37:viewanimator:1.1.1'
