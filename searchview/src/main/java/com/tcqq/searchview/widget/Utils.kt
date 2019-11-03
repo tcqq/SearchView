@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Martin Lapis, Alan Dreamer
+ * Copyright 2018 Martin Lapis, Alan Perry
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import android.view.ViewGroup
 import android.view.WindowManager
 
 /**
- * @author Alan Dreamer
+ * @author Alan Perry
  * @since 2018-12-10 Created
  */
 object Utils {

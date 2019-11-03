@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Martin Lapis, Alan Dreamer
+ * Copyright 2018 Martin Lapis, Alan Perry
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * @author Alan Dreamer
+ * @author Alan Perry
  * @since 2018-12-11 Created
  */
 class MainActivity : AppCompatActivity() {

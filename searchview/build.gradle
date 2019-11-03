@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Martin Lapis, Alan Dreamer
+ * Copyright 2018 Martin Lapis, Alan Perry
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,15 +56,15 @@ android {
 dependencies {
     //AndroidX
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta04'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-rc01'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.core:core-ktx:1.2.0-alpha04'
+    implementation 'androidx.core:core-ktx:1.2.0-beta01'
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     //Google
-    implementation 'com.google.android.material:material:1.1.0-alpha10'
+    implementation 'com.google.android.material:material:1.2.0-alpha01'
 
     //ViewAnimator - https://github.com/florent37/ViewAnimator
     implementation 'com.github.florent37:viewanimator:1.1.1'
