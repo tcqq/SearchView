@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Martin Lapis, Alan Perry
+ * Copyright 2018 Martin Lapis, Perry Lance
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import kotlinx.android.synthetic.main.activity_searchbar.*
 import timber.log.Timber
 
 /**
- * @author Alan Perry
+ * @author Perry Lance
  * @since 2018-12-11 Created
  */
 class SearchBarActivity : AppCompatActivity() {

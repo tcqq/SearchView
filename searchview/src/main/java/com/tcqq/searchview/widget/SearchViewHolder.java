@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Martin Lapis, Alan Perry
+ * Copyright 2018 Martin Lapis, Perry Lance
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

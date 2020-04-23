@@ -29,7 +29,7 @@ dependencies {
 License
 -------
 
-Copyright 2019 Martin Lapis, Alan Perry.
+Copyright 2019 Martin Lapis, Perry Lance
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
